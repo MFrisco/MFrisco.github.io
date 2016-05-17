@@ -1,0 +1,104 @@
+
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Cabin', sans-serif;
+	overflow: hidden;
+	/* background: url("http://i32.photobucket.com/albums/d8/sho0/seahorse-silhouette-4cbKoXyni_1.jpeg") no-repeat;
+	background-size: 100px; */
+	
+}
+
+h1 {
+	font-family: 'Arvo', serif;
+}
+p {
+	text-align: justify
+}
+/* unvisited link */
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: #000;
+}
+/* mouse over link */
+a:hover {
+    color: #FFF;
+    background: #00cccc;
+}
+/* selected link */
+a:active {
+    color: #000;
+}
+.container {
+	margin: 0 auto;
+	width: 400px;
+	padding: 20px;
+	
+}
+
+.Circle { border: 0px solid #000;
+margin-left: 5%;
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+	color: #333;
+	background: #66ccff;
+	background: -webkit-radial-gradient(#66ccff, #00334d);
+	background: -o-radial-gradient(#66ccff, #00334d);
+	background: -moz-radial-gradient(#66ccff, #00334d);
+	background: radial-gradient(#66ccff, #00334d);
+	-webkit-animation-name: circleanim; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: .5s; /* Chrome, Safari, Opera */
+    -webkit-animation-timing: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-name: circleanim;
+    animation-duration: .5s;
+    animation-timing: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes circleanim {
+    0% {	background: #66ccff;
+	background: -webkit-radial-gradient(#27dee3, #072c2d);
+	background: -o-radial-gradient(#27dee3, #072c2d);
+	background: -moz-radial-gradient(#27dee3, #072c2d);
+	background: radial-gradient(#27dee3, #072c2d);}
+    
+        25% {
+	background: -webkit-radial-gradient(#23c7cc, #0b4244);
+	background: -o-radial-gradient(#23c7cc, #0b4244);
+	background: -moz-radial-gradient(#23c7cc, #0b4244);
+	background: radial-gradient(#23c7cc, #0b4244);}
+    
+        50% {
+	background: -webkit-radial-gradient(#1fb1b5, #0f585a);
+	background: -o-radial-gradient(#1fb1b5, #0f585a);
+	background: -moz-radial-gradient(#1fb1b5, #0f585a);
+	background: radial-gradient(#1fb1b5, #0f585a);}
+    
+    
+        75% {
+	background: -webkit-radial-gradient(#1b9b9e, #136f71);
+	background: -o-radial-gradient(#1b9b9e, #136f71);
+	background: -moz-radial-gradient(#1b9b9e, #136f71);
+	background: radial-gradient(#1b9b9e, #136f71);}
+    
+    
+    100% {	background: #178588;
+	background: -webkit-radial-gradient(#178588, #0f585a);
+	background: -o-radial-gradient(#178588, #0f585a);
+	background: -moz-radial-gradient(#178588, #0f585a);
+	background: radial-gradient(#178588, #0f585a);}
+}
+
+
+
