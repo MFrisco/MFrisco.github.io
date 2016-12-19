@@ -5,7 +5,7 @@
 	<script src="winter.js"></script>
 </head>
 
-<body>
+<body onload="setVol()">
 	<div class="mXmas" id="msg" onclick="myMessage()" onmouseout="revert()">Merry Christmas
 	</div>
 
@@ -22,9 +22,10 @@
 
 	<div class="detail">Click on the card!</div>
 
-<audio autoplay controls> 
-  <source src="we-wish-you-a-merry-christmas.mp3">
-  <source src="we-wish-you-a-merry-christmas.ogg">
-</audio>
+<audio autoplay controls id="winterSong"> 
+  <source src="http://mfrisco.github.io/we-wish-you-a-merry-christmas.mp3">
+  <source src="http://mfrisco.github.io/we-wish-you-a-merry-christmas.ogg">
+	Your browser does not support audio for this webpage!
+		</audio>
 </body>
 </html>
