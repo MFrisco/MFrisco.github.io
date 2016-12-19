@@ -1,3 +1,9 @@
+	function setVol() {
+	var x = document.getElementById("winterSong");
+    x.volume = 0.2;
+}
+
+
 function myMessage() {
 
 	/* What would you like your message to say? */
@@ -21,8 +27,6 @@ function revert() {
 		document.getElementById('msg').style.overflow = "initial";
 		document.getElementById('msg').style.transitionDuration = "3s";
 }
-
-
 
 /** @license
  * DHTML Snowstorm! JavaScript-based snow for web pages
