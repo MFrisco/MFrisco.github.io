@@ -3,12 +3,19 @@ function myMessage() {
 	/* What would you like your message to say? */
 	document.getElementById('msg').innerHTML= "Hope your holiday is great!!" + '<br/>' + "Love, Meghan" + '<br/>';
 
-	 /* Message Styling */ document.getElementById('msg').style="background:#ffffff;color:#000000;border:10px double tomato;font-size:36pt; overflow: auto; -ms-overflow-style: auto;";
+	 /* Message Styling */ 
+	document.getElementById('msg').style.background = "#ffffff";
+	document.getElementById('msg').style.color = "#000000";
+	document.getElementById('msg').style.border ="10px double tomato";
+	document.getElementById('msg').style.fontSize = "36pt";
+	document.getElementById('msg').style.overflow = "auto";
 }
 
 function revert() {
 	document.getElementById('msg').innerHTML= "Merry Christmas";
-		document.getElementById('msg').style="background: tomato;color:#ffffff;border:10px double #ffffff;";
+		document.getElementById('msg').style.background = "tomato";
+		document.getElementById('msg').style.color = "#ffffff"; 
+		document.getElementById('msg').style.border = "10px double #ffffff";
 }
 
 
