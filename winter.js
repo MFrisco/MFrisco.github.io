@@ -3,7 +3,7 @@ function myMessage() {
 	/* What would you like your message to say? */
 	document.getElementById('msg').innerHTML= "Hope your holiday is great!!" + '<br/>' + "Love, Meghan" + '<br/>';
 
-	 /* Message Styling */ document.getElementById('msg').style="background:#ffffff;color:#000000;border:10px double tomato;font-size:36pt; overflow: auto;";
+	 /* Message Styling */ document.getElementById('msg').style="background:#ffffff;color:#000000;border:10px double tomato;font-size:36pt; overflow: auto; -ms-overflow: auto;";
 }
 
 function revert() {
