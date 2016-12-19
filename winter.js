@@ -16,6 +16,7 @@ function revert() {
 		document.getElementById('msg').style.background = "tomato";
 		document.getElementById('msg').style.color = "#ffffff"; 
 		document.getElementById('msg').style.border = "10px double #ffffff";
+	document.getElementById('msg').style.fontSize = "72pt";
 }
 
 
