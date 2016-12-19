@@ -13,7 +13,7 @@ function myMessage() {
 	document.getElementById('msg').style.color = "#000000";
 	document.getElementById('msg').style.border ="10px double tomato";
 	document.getElementById('msg').style.fontSize = "36pt";
-	document.getElementById('msg').style.overflow = "initial";
+	document.getElementById('msg').style.overflow = "hidden";
 	document.getElementById('msg').style.transitionDuration = "0s";
 }
 
@@ -23,7 +23,7 @@ function revert() {
 		document.getElementById('msg').style.color = "#ffffff"; 
 		document.getElementById('msg').style.border = "10px double #ffffff";
 		document.getElementById('msg').style.fontSize = "72pt";
-		document.getElementById('msg').style.overflow = "initial";
+		document.getElementById('msg').style.overflow = "hidden";
 		document.getElementById('msg').style.transitionDuration = "3s";
 }
 
