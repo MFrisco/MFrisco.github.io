@@ -6,7 +6,7 @@
 function myMessage() {
 
 	/* What would you like your message to say? */
-	document.getElementById('msg').innerHTML= "Hope your holiday is great!!" + '<br/>' + "Love, Meghan" + '<br/>';
+	document.getElementById('msg').innerHTML= "Hope your holiday is great!!" + '<br/>' + "Love, Meghan & Nick" + '<br/>';
 
 	 /* Message Styling */ 
 	document.getElementById('msg').style.background = "#ffffff";
