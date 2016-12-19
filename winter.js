@@ -1,7 +1,6 @@
 	function setVol() {
 	var x = document.getElementById("winterSong");
-    x.volume = 0.2;
-}
+    x.volume = 0.2; }
 
 
 function myMessage() {
