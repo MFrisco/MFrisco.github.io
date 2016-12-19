@@ -9,6 +9,7 @@ function myMessage() {
 	document.getElementById('msg').style.border ="10px double tomato";
 	document.getElementById('msg').style.fontSize = "36pt";
 	document.getElementById('msg').style.overflow = "auto";
+	document.getElementById('msg').style.transitionDuration = "0s";
 }
 
 function revert() {
@@ -18,6 +19,7 @@ function revert() {
 		document.getElementById('msg').style.border = "10px double #ffffff";
 		document.getElementById('msg').style.fontSize = "72pt";
 		document.getElementById('msg').style.overflow = "initial";
+		document.getElementById('msg').style.transitionDuration = "3s";
 }
 
 
