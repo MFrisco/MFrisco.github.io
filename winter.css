@@ -1,8 +1,13 @@
 @media all and (orientation:portrait) {
   /* Styles for Portrait screen */
-	body {
-	display: none;}
+	.portrait {
+		visibility: visible;
+		color: blue;
+		font-size: 24pt;}
 }
+
+
+.portrait {visibility: hidden;}
 
 /* Flipcard */
 
