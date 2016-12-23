@@ -76,7 +76,11 @@ body {
 	z-index: 0;
 }
 
-
+.forMobile {
+	color: #000;
+	font-size: 4em;
+	display: none;
+}
 
 
 @keyframes spin {
@@ -161,3 +165,9 @@ body {
 	}
 }
 
+@media (orientation: portrait) {
+.container {display: none;
+}
+
+.forMobile {display: block;}
+}
