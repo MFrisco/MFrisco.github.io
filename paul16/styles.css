@@ -11,7 +11,7 @@ body {
 	background: linear-gradient(to bottom, rgba(0, 30, 0, 1), rgba(0, 100, 0, .8)) no-repeat;
 	width: 100%;
 	margin: 0 auto;
-	padding: 2em 0 0 0;
+	padding: 2em 0px 0px 0px;
 	height: 100%;
 }
 
