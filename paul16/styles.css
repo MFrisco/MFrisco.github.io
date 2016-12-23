@@ -3,67 +3,88 @@ html {
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
+	background: rgba(00, 100, 0, 1);
 }
 
 body {
 	background: #000;
 	background: linear-gradient(to bottom, rgba(0, 30, 0, 1), rgba(0, 100, 0, .8)) no-repeat;
 	width: 100%;
-	height: 400px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 2em 0 0 0;
 	height: 100%;
 }
 
 .container {
-	animation: slideIn 15s 1 forwards;
-	-o-animation: slideIn 15s 1 forwards;
-	-webkit-animation: slideIn 15s 1 forwards;
-	-moz-animation: slideIn 15s 1 forwards;
 	opacity: 1;
 	margin: 0 auto;
 	white-space: nowrap;
+	animation: spin 15s linear 1;
+	-o-animation: spin 15s linear 1;
+	-webkit-animation: spin 15s linear 1;
+	-moz-animation: spin 15s linear 1;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	line-height: 4em;
 }
 
-.wrap {white-space: nowrap;}
+.wrap {
+	text-align: center;
+}
 
 .hbd {
 	padding: 0px;
 	color: #fff;
 	font-family: 'Space Mono', monospace;
 	font-size: 600%;
-	animation: spin 15s ease 1;
-	-o-animation: spin 15s ease 1;
-	-webkit-animation: spin 15s ease 1;
-	-moz-animation: spin 15s ease 1;
 	margin: 0 auto;
 	opacity: 1;
-	float: left;
 	text-shadow: 10px 2px green;
 	cursor: crosshair;
+	display: inline;
+	text-align: center;
 }
 
 #hbdo:hover {
 	text-shadow: 10px 2px 20px red;
 	cursor: crosshair;
-	font-size: 700%;
+
 }
 
 #hbde:hover {
 	text-shadow: 10px 2px 20px blue;
 	cursor: crosshair;
-	font-size: 700%;
+	
 }
+
+.binary {
+	color: #00b100;
+	font-family: Space Mono;
+	font-size: 200%;
+	text-align: center;
+	margin: 0 auto;
+	overflow: none;
+	display: block;
+	animation: colorIn 2s alternate infinite;
+	-webkit-animation: colorIn 2s alternate infinite;
+	-moz-animation: colorIn 2s alternate infinite;
+	-o-animation: colorIn 2s alternate infinite;
+	opacity: .5;
+	position: fixed;
+	z-index: 0;
+}
+
 
 
 
 @keyframes spin {
 	from {
-		transform: rotate3d(0, 1, 1, 90deg) scale(.5, .5) rotate(360deg);
+		transform: skewx(-80deg);
 		opacity: .2;
 	}
 	to {
-		transform: rotate3d(0, 1, 1, 360deg) scale(1, 1);
 		opacity: 1;
 	}
 }
@@ -71,33 +92,30 @@ body {
 
 @-o-keyframes spin {
 	from {
-		transform: rotate3d(0, 1, 1, 90deg) scale(.5, .5) rotate(360deg);
+		transform: skewx(-80deg);
 		opacity: .2;
 	}
 	to {
-		transform: rotate3d(0, 1, 1, 360deg) scale(1, 1);
 		opacity: 1;
 	}
 }
 
 @-moz-keyframes spin {
 	from {
-		transform: rotate3d(0, 1, 1, 90deg) scale(.5, .5) rotate(360deg);
+		transform: skewx(-80deg);
 		opacity: .2;
 	}
 	to {
-		transform: rotate3d(0, 1, 1, 360deg) scale(1, 1);
 		opacity: 1;
 	}
 }
 
 @-webkit-keyframes spin {
 	from {
-		transform: rotate3d(0, 1, 1, 90deg) scale(.5, .5) rotate(360deg);
+		transform: skewx(-80deg);
 		opacity: .2;
 	}
 	to {
-		transform: rotate3d(0, 1, 1, 360deg) scale(1, 1);
 		opacity: 1;
 	}
 }
@@ -106,61 +124,40 @@ body {
 
 
 
-
-@keyframes slideIn {
+@keyframes colorIn {
 	from {
-		transform: translate(0,300px);
-		opacity: .1;
+		opacity: 0;
 	}
 	to {
-		transform: translate(0,0);
 		opacity: 1;
 	}
 }
 
 
-@-o-keyframesslideIn {
+@-o-keyframes colorIn {
 	from {
-		transform: translate(0,300px);
-		opacity: .1;
+		opacity: 0;
 	}
 	to {
-		transform: translate(0,0);
 		opacity: 1;
 	}
 }
 
-@-moz-keyframes slideIn {
+@-moz-keyframes colorIn {
 	from {
-		transform: translate(0,300px);
-		opacity: .1;
+		opacity: 0;
 	}
 	to {
-		transform: translate(0,0);
 		opacity: 1;
 	}
 }
 
-@-webkit-keyframes slideIn {
+@-webkit-keyframes colorIn {
 	from {
-		transform: translate(0,300px);
-		opacity: .1;
+		opacity: 0;
 	}
 	to {
-		transform: translate(0,0);
 		opacity: 1;
 	}
-}
-
-.binary {
-	clear:both;
-	color: #00ff00;
-	font-family: Space Mono;
-	font-size: 200%;
-	opacity: .3;
-	text-align: center;
-	margin: 0 auto;
-	overflow: none;
-	display: block;
 }
 
