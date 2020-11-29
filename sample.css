@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin|Arvo|Dancing+Script|Sacramento);
+
+html {
+height: 100%;
+width: 100%;}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Cabin', sans-serif;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+panel {display: inline;}
+
+.main-heading {
+	font-family: 'Dancing Script', cursive; 
+	color: #333; 
+	font-size: 8em;
+}
+
+h2 {
+	font-family: 'Sacramento', sans-serif;
+    font-size: 60pt;
+}
+
+.fa {color: #369;}
+
+
+.col-md-4{
+    background: url("concrete_seamless.png") fixed;
+text-align: center;
+font-size: 30pt;}
+
+
+h4 {
+    font-size: 20pt;
+}
+
+
+[class*="col-"] {
+	border: 0px;
+	color: #333;
+	}
+
+
+section ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 380px;
+height: 200px;
+border: 0px solid black;
+    margin: 0 auto;
+    padding: 0 1em 0 0;
+vertical-align: top;
+}
+
+section {
+    background: #369;
+    text-align: center;
+    color: #fff;
+}
+
+#works {
+    background: #369;
+    margin: 0;
+    padding: 50px 0;
+    color: #fff;
+    }
+
+.alert-link {
+    font-size: 20pt;
+}
+
+.badge {
+    background: #204060;
+}
+
+.bg{
+background: url("concrete_seamless.png") fixed;
+	margin: 0;
+	padding: 0;
+    width: 100%;
+    }
+
+h1 {
+	font-family: 'Dancing Script', sans-serif;
+	margin-top: 30px;
+}
+
+p {
+	text-align: justify
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: #fff;
+}
+/* mouse over link */
+a:hover {
+    color: #fff;
+}
+/* selected link */
+a:active {
+    color: #fff;
+}
+
+
+
+.entry a:link, .entry a:visited, .entry a:active, .entry a:hover {
+color: rgba(0,150,255,1);
+}
+
+
+.circle { 
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+	border: 10px solid #369;
+	width: 350px;
+	height: 350px;
+	border-radius: 350px;
+	color: #333;
+	background: #fff;
+	padding: 100px 30px 0 0;
+	margin: 50px auto;
+	text-align: center;
+	letter-spacing: -3px;
+}
+
+.circle::first-letter{
+	font-family: 'Sacramento';
+	font-weight: 300;
+}
+
+.logoContainer {
+position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	text-align: center;
+	background: #204060;
+	}
+
+#panel-default, #panel-default:hover {
+    color: #333!important;
+}
+
+.services h2 {
+    transform: rotate(45deg);
+    margin: 0 auto;
+    padding: 80px 0px 0px 40px;
+    color: #fff;
+    background: #369;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+.slogan {
+	margin-bottom: 40px;
+}
+
+h3 {
+    color: #333;
+    font-variant: small-caps;
+}
+
+.send_email {
+    margin: 20px auto;
+    max-width: 420px;
+    text-align: center;
+}
+
+
+#contact {
+    background: url("concrete_seamless.png") fixed;
+    margin: -20px 0;
+    padding: 30px 0;
+}
+.contact-area {
+    background: url("concrete_seamless.png") fixed;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.entry {
+    width: 450px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+footer {
+font-size: 1.4em;
+margin: 3em auto;
+text-align: center;
+width: 80%;
+background: #fff;
+color: #555;
+}
+
+footer p {
+text-align: center;}
+
+.left {
+float: left;
+text-align: left;
+margin-right: 20px;
+}
+
+
+.left img {
+background: #000;
+transition: .3s;
+border-radius: 50%;
+border: 3px solid #000;
+}
+
+.left img:hover{
+border: 20px solid black;
+border-radius: 100%;
+transition: .3s;
+transform: rotate(360deg);}
+
+.copyright {
+margin-top: 2em;
+font-size: 1em;
+}
